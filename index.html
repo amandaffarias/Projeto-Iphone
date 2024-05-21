@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Iphone - Apple (Brasil)</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <img class="logo" src="./assets/logo (5).png" alt="logo-apple">
+
+        <ul>
+            <li>Mac</li>
+            <li>Iphone</li>
+            <li>Ipad</li>
+            <li>Watch</li>
+            <li>Airpods</li>
+            <li>Acessórios</li>
+            <li>Suporte</li>
+        </ul>
+    </div>
+
+    <div class="blue-box">
+        <div>
+            <h1 class="title">Iphone 14</h1>
+
+            <h2 class="title-two">Tão poderoso. Tão ao seu alcance.</h2>
+
+            <p class="text">Em dois tamanhos perfeitos. Agora com um toque de amarelo.</p>
+
+            <h3 class="price">A partir de R$633,25/mês ou R$7.599,00*</h3>
+            <button class="button">Comprar</button>
+
+            <p class="choose-color">Escolha sua cor:</p>
+            <div>
+                <button class="blue ball"  onclick="changeColor('#81a5c4'); changeIphone('./assets/iphone-azul.png')"></button>
+                <button class="yellow ball" onclick="changeColor('#f7da47'); changeIphone('./assets/iphone-amarelo.png')" ></button>
+                <button class="white ball"  onclick="changeColor('#c1c1c1'); changeIphone('./assets/iphone-branco.png')"></button>
+                <button class="black ball"  onclick="changeColor('#272d33'); changeIphone('./assets/iphone-preto.png')"></button>
+                <button class="red ball"  onclick="changeColor('#b50012'); changeIphone('./assets/iphone-vemelho.png')"></button>
+                <button class="purple ball"  onclick="changeColor('#ede7f1'); changeIphone('./assets/iphone-roxo.png')"></button>
+
+            </div>
+        </div>
+
+            <div class="circle"></div>
+
+            <img class="iphone" src="./assets/iphone-azul.png" alt="iphone">
+       
+    </div>
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
